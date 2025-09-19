@@ -5,7 +5,8 @@ export default defineConfig({
   title: "fin-think",
   description: "fin's World of Thought",
   head: [
-    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }]
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
